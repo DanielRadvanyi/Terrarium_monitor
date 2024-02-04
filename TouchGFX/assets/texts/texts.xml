@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_WCTI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">placeholder</Translation>
+      </Text>
+      <Text Id="__SingleUse_DRUI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">placeholder</Translation>
+      </Text>
+      <Text Id="__SingleUse_L0EF" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">placeholder</Translation>
+      </Text>
+      <Text Id="__SingleUse_I5UU" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_DUW5" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_4K5Q" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;C</Translation>
+      </Text>
+      <Text Id="__SingleUse_SUDP" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">UV level:</Translation>
+      </Text>
+      <Text Id="__SingleUse_7M57" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Humidity:</Translation>
+      </Text>
+      <Text Id="__SingleUse_4M1U" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Temperature:</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="segoeui.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0-9,." WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
