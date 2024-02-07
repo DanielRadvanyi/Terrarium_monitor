@@ -19,7 +19,7 @@ void MainScreenView::tearDownScreen()
 void MainScreenView::updateTemp(float temp)
 {
 	Unicode::snprintf(TempValueBuffer, TEMPVALUE_SIZE, "%.1f", temp);
-	if(temp < 23.0)
+	if(temp < 25.0)
 	{
 		TempIndicatorPainter.setColor(touchgfx::Color::getColorFromRGB(225, 0, 0)); // Red
 	}
