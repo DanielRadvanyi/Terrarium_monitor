@@ -184,7 +184,8 @@ int main(void)
   /* Call PreOsInit function */
   MX_TouchGFX_PreOSInit();
   /* USER CODE BEGIN 2 */
-
+  Displ_Init(Displ_Orientat_0);
+  touchgfxSignalVSync();
   /* USER CODE END 2 */
 
   /* Init scheduler */
@@ -242,7 +243,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  MX_TouchGFX_Process();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
