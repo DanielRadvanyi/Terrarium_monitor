@@ -49,7 +49,7 @@ void MainScreenView::updateHum(unsigned int hum)
 
 void MainScreenView::updateUV(float uv)
 {
-	Unicode::snprintf(UVValueBuffer, UVVALUE_SIZE, "%.1f", uv);
+	Unicode::snprintf(UVValueBuffer, UVVALUE_SIZE, "%.3f", uv);
 	UVValue.resizeToCurrentText();
 	UVValue.invalidate(); // redraw
 }
